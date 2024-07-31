@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #007acc;
+    text-align: center;
+}
+
+.stButton button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.stButton button:hover {
+    background-color: #005a9e;
+}
+
+.stSelectbox, .stTextInput {
+    margin-bottom: 20px;
+}
+
+.stTable {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stDataFrame {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
